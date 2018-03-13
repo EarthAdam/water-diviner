@@ -23,9 +23,8 @@ We've talked through a couple of ways to hack it to work with the OpenVR SDK tho
 with the OpenVR standard (C++).  
 https://github.com/ValveSoftware/openvr/tree/master/samples
 https://github.com/Esri/hololens-terrain-viewer/blob/master/README.md
-- [ ] Dig through OpenVR Standard and get a basic understanding of it:
-http://devcenter.metavision.com/get-started/software-setup/installing-the-openvr-sdk/
-https://steamcommunity.com/app/358720/discussions/0/142260895142733091/
+- [ ] Dig through OpenVR Standard and get a basic understanding of it:  
+http://devcenter.metavision.com/get-started/software-setup/installing-the-openvr-sdk/ https://steamcommunity.com/app/358720/discussions/0/142260895142733091/
 - [ ] Join the ArcGIS AR Runtime SDK Private Beta program
 - [ ] Dig through ArcGIS AR Runtime SDK
 
