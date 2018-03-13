@@ -11,14 +11,12 @@ https://wiki.openstreetmap.org/wiki/Tag:amenity%3Ddrinking_water
 - [x] Make Reddit call to OSM channel: https://www.reddit.com/r/openstreetmap/comments/846gnf/creating_reality_vr_hackathon_ar_water_map/
 
 NASA-GRACE
-GLDAS Land Water Content (monthly)
-https://grace.jpl.nasa.gov/data/get-data/land-water-content/
-A GRACE-independent forward simulation of monthly land water storage changes (currently using soil moisture, snow, and canopy water). Can be used for comparison and residual groundwater studies.
-The grids of total water content every 3 hours were averaged over nominal months. The time-averaged grid Jan-2003 to Dec-2007 was then subtracted from all the individual monthly grids. The data are available in ASCII format (one file per month), in NetCDF format (one file for the whole time period), and as GIF images and animations.
+GLDAS Land Water Content (monthly): https://grace.jpl.nasa.gov/data/get-data/land-water-content/
+- A GRACE-independent forward simulation of monthly land water storage changes (currently using soil moisture, snow, and canopy water). Can be used for comparison and residual groundwater studies.
+- The grids of total water content every 3 hours were averaged over nominal months. The time-averaged grid Jan-2003 to Dec-2007 was then subtracted from all the individual monthly grids. The data are available in ASCII format (one file per month), in NetCDF format (one file for the whole time period), and as GIF images and animations.
 
-Interactive GRACE Data Browsers
-https://grace.jpl.nasa.gov/data/get-data/interactive-browsers/
-These links to data browser allow the interactive retrieval of GRACE Land data over river basins, as well as the evaluation of long-term trends and mean seasonal amplitudes. Interactive data browsers that allow users to explore and download grid-point to basin-level GRACE data.
+Interactive GRACE Data Browsers: https://grace.jpl.nasa.gov/data/get-data/interactive-browsers/
+- These links to data browser allow the interactive retrieval of GRACE Land data over river basins, as well as the evaluation of long-term trends and mean seasonal amplitudes. Interactive data browsers that allow users to explore and download grid-point to basin-level GRACE data.
 
 ## Hardware
 We currently have a Meta 2 headset that I was able to lean from MetaVision. Then HP loaned us a backpack workstation that can run VR,
