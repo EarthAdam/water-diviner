@@ -8,6 +8,7 @@ We found the OpenStreetMaps has the largest catalog of drinking water sources:
 https://wiki.openstreetmap.org/wiki/Tag:amenity%3Ddrinking_water
 - [ ] Figure out how to pull that data via an API call
 - [ ] Search through ArcGIS water related datasets
+- [x] Make Reddit call to OSM channel: https://www.reddit.com/r/openstreetmap/comments/846gnf/creating_reality_vr_hackathon_ar_water_map/
 
 ## Hardware
 We currently have a Meta 2 headset that I was able to lean from MetaVision. Then HP loaned us a backpack workstation that can run VR,
