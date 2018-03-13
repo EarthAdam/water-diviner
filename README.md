@@ -8,6 +8,7 @@ with their new AR Runtime SDK (preferrably), or some of their API's. Issue curre
 We've talked through a couple of ways to hack it to work with the OpenVR SDK though, we just need to get the ArcGIS SDK (.NET) to talk
 with the OpenVR standard (C++).  
 https://github.com/ValveSoftware/openvr/tree/master/samples
+https://github.com/Esri/hololens-terrain-viewer/blob/master/README.md
 - [ ] Dig through OpenVR Standard and get a basic understanding of it
 - [ ] Join the ArcGIS AR Runtime SDK Private Beta program
 - [ ] Dig through ArcGIS AR Runtime SDK
