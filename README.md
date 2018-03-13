@@ -4,6 +4,15 @@ An AR app to guide users to the nearest water source
 # Initial Approach
 
 ## Geolocated Data
+### ArcGIS Layers
+https://www.arcgis.com/home/item.html?id=62768fe2525349458b2506911fe24dea
+https://www.arcgis.com/home/item.html?id=61003c853d2c4c338841429610b5747f
+https://www.arcgis.com/home/item.html?id=cecdb0058e4947dea6168552badb4aaf
+https://www.arcgis.com/home/item.html?id=fd975f1436e94dfc8f2201cc961deb3c
+https://www.arcgis.com/home/item.html?id=b7d2690cacda4644b4246aa05d7a6098
+http://help.arcgis.com/en/arcgisdesktop/10.0/help/index.html#/Hydrologic_analysis_sample_applications/009z0000005z000000/
+
+### OSM Layers
 We found the OpenStreetMaps has the largest catalog of drinking water sources: 
 https://wiki.openstreetmap.org/wiki/Tag:amenity%3Ddrinking_water
 - [ ] Figure out how to pull that data via an API call
