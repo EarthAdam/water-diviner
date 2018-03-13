@@ -4,20 +4,21 @@ An AR app to guide users to the nearest water source
 # Initial Approach
 
 ## Geolocated Data
-### ArcGIS Layers
-https://www.arcgis.com/home/item.html?id=62768fe2525349458b2506911fe24dea
-https://www.arcgis.com/home/item.html?id=61003c853d2c4c338841429610b5747f
-https://www.arcgis.com/home/item.html?id=cecdb0058e4947dea6168552badb4aaf
-https://www.arcgis.com/home/item.html?id=fd975f1436e94dfc8f2201cc961deb3c
-https://www.arcgis.com/home/item.html?id=b7d2690cacda4644b4246aa05d7a6098
-http://help.arcgis.com/en/arcgisdesktop/10.0/help/index.html#/Hydrologic_analysis_sample_applications/009z0000005z000000/
-
-### OSM Layers
 We found the OpenStreetMaps has the largest catalog of drinking water sources: 
 https://wiki.openstreetmap.org/wiki/Tag:amenity%3Ddrinking_water
 - [ ] Figure out how to pull that data via an API call
 - [ ] Search through ArcGIS water related datasets
 - [x] Make Reddit call to OSM channel: https://www.reddit.com/r/openstreetmap/comments/846gnf/creating_reality_vr_hackathon_ar_water_map/
+
+NASA-GRACE
+GLDAS Land Water Content (monthly)
+https://grace.jpl.nasa.gov/data/get-data/land-water-content/
+A GRACE-independent forward simulation of monthly land water storage changes (currently using soil moisture, snow, and canopy water). Can be used for comparison and residual groundwater studies.
+The grids of total water content every 3 hours were averaged over nominal months. The time-averaged grid Jan-2003 to Dec-2007 was then subtracted from all the individual monthly grids. The data are available in ASCII format (one file per month), in NetCDF format (one file for the whole time period), and as GIF images and animations.
+
+Interactive GRACE Data Browsers
+https://grace.jpl.nasa.gov/data/get-data/interactive-browsers/
+These links to data browser allow the interactive retrieval of GRACE Land data over river basins, as well as the evaluation of long-term trends and mean seasonal amplitudes. Interactive data browsers that allow users to explore and download grid-point to basin-level GRACE data.
 
 ## Hardware
 We currently have a Meta 2 headset that I was able to lean from MetaVision. Then HP loaned us a backpack workstation that can run VR,
