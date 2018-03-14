@@ -6,7 +6,7 @@ An AR app to guide users to the nearest water source
 ## Geolocated Data
 We found the OpenStreetMaps has the largest catalog of drinking water sources: 
 https://wiki.openstreetmap.org/wiki/Tag:amenity%3Ddrinking_water
-- [ ] Figure out how to pull that data via an API call
+- [x] Figure out how to pull that data via an API call (http://overpass-turbo.eu/)
 - [ ] Search through ArcGIS water related datasets
 - [x] Make Reddit call to OSM channel: https://www.reddit.com/r/openstreetmap/comments/846gnf/creating_reality_vr_hackathon_ar_water_map/
 
@@ -33,14 +33,19 @@ https://github.com/ValveSoftware/openvr/tree/master/samples
 https://github.com/Esri/hololens-terrain-viewer/blob/master/README.md
 - [ ] Dig through OpenVR Standard and get a basic understanding of it:  
 http://devcenter.metavision.com/get-started/software-setup/installing-the-openvr-sdk/ https://steamcommunity.com/app/358720/discussions/0/142260895142733091/
-- [ ] Join the ArcGIS AR Runtime SDK Private Beta program
+- [x] Join the ArcGIS AR Runtime SDK Private Beta program
+- [x] Get ArcGIS VR Runtime SDK working
 - [ ] Dig through ArcGIS AR Runtime SDK
 
 ### Plan B: Mapbox + Unity with ArcGIS API calls
 Our alternative approach is to use Mapbox's Unity SDK. Our team is generally much more familiar with Unity, and I've worked with 
-Mapbox in Unity before several times. If we go this route we could make something similar to Pokemon Go style, and spend more time working
-on gamifying the experience, playing with the dynamics of a reputation system for discovering/auditing drinkable water sources, and so on.
+Mapbox in Unity before several times. If we go this route we could make something similar to Pokemon Go style, and spend more time working on gamifying the experience, playing with the dynamics of a reputation system for discovering/auditing drinkable water sources, and so on.
 
 
 ### Plan C: AR Core
 We also have a Google Pixel, and ArcGIS Runtime SDK works with Android, so a simpler route might be to build a phone AR based experience.
+
+# Tuesday Night Decision
+## Unity + Mapbox + AR Core
+We spent much of yesterday looking into the opposing frameworks for the project. We really wanted to find a way to use ESRI in order to
+get the most of our access to the ESRI team, and learn both more about the tools they offered, as well as the OpenVR framework. After hours of debate and trial & error, our team decided that working with Unity and Mapbox was the path of least resistance. So moving forward we are developing with Plan C: the AR Core Mapbox Unity Build.
