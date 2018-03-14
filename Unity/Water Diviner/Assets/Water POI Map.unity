@@ -161,7 +161,7 @@ MonoBehaviour:
   _latitudeLongitudeString: 39.9623, -83.0007
   _root: {fileID: 0}
   _tileProvider: {fileID: 110210643}
-  _mapVisualizer: {fileID: 11400000, guid: c9b7f3a88d66eb542933eb7aa557a5fd, type: 2}
+  _mapVisualizer: {fileID: 11400000, guid: 9046c4f17a62040458a8df57b1bcdf2b, type: 2}
   _unityTileSize: 100
   _snapMapHeightToZero: 1
 --- !u!114 &110210643
@@ -307,6 +307,52 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3adcee2515f8c49f4a7afb3bacf2c56e, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &425900481
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4408427962532906, guid: a24ac90e05334814f9392f55a8444327, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -27.346924
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408427962532906, guid: a24ac90e05334814f9392f55a8444327, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -71.20806
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408427962532906, guid: a24ac90e05334814f9392f55a8444327, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 77.1922
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408427962532906, guid: a24ac90e05334814f9392f55a8444327, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408427962532906, guid: a24ac90e05334814f9392f55a8444327, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408427962532906, guid: a24ac90e05334814f9392f55a8444327, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408427962532906, guid: a24ac90e05334814f9392f55a8444327, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408427962532906, guid: a24ac90e05334814f9392f55a8444327, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1602881693746514, guid: a24ac90e05334814f9392f55a8444327, type: 2}
+      propertyPath: m_Name
+      value: Cylinder
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: a24ac90e05334814f9392f55a8444327, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &616915792
 GameObject:

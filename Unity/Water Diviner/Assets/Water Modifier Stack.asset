@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Name: Water Modifier Stack
   m_EditorClassIdentifier: 
   _moveFeaturePositionTo: 0
-  MeshModifiers: []
-  GoModifiers: []
+  MeshModifiers:
+  - {fileID: 11400000, guid: c1c619f43a2cb5b4a8cbc80e9e814804, type: 2}
+  GoModifiers:
+  - {fileID: 11400000, guid: 9c4fc1df56c3ef74aba1716dda50de1b, type: 2}
