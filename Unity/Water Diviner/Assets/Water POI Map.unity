@@ -156,9 +156,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58cb9a85be6f84591938618fa232ce85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _zoom: 16
+  _zoom: 13
   _initializeOnStart: 1
-  _latitudeLongitudeString: 39.9623, -83.0007
+  _latitudeLongitudeString: 34.0544, -118.2439
   _root: {fileID: 0}
   _tileProvider: {fileID: 110210643}
   _mapVisualizer: {fileID: 11400000, guid: 9046c4f17a62040458a8df57b1bcdf2b, type: 2}
@@ -350,6 +350,10 @@ Prefab:
     - target: {fileID: 1602881693746514, guid: a24ac90e05334814f9392f55a8444327, type: 2}
       propertyPath: m_Name
       value: Cylinder
+      objectReference: {fileID: 0}
+    - target: {fileID: 1602881693746514, guid: a24ac90e05334814f9392f55a8444327, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a24ac90e05334814f9392f55a8444327, type: 2}
@@ -582,7 +586,7 @@ Prefab:
     - target: {fileID: 224835413515161394, guid: 98be219873e6d4dffb5949746f515a33,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -63.16622
+      value: -61.844845
       objectReference: {fileID: 0}
     - target: {fileID: 224835413515161394, guid: 98be219873e6d4dffb5949746f515a33,
         type: 2}
@@ -592,12 +596,12 @@ Prefab:
     - target: {fileID: 224835413515161394, guid: 98be219873e6d4dffb5949746f515a33,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 106.33244
+      value: 103.68969
       objectReference: {fileID: 0}
     - target: {fileID: 224857786874416376, guid: 98be219873e6d4dffb5949746f515a33,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 126.33244
+      value: 123.68969
       objectReference: {fileID: 0}
     - target: {fileID: 224907856650798614, guid: 98be219873e6d4dffb5949746f515a33,
         type: 2}

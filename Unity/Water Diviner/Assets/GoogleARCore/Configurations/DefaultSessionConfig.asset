@@ -8,9 +8,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63d97cb1cfb3f1b499c24763afa54873, type: 3}
-  m_Name: Water Vector Tile Factory
+  m_Script: {fileID: 11500000, guid: 53ac32fab2599402fb6d154adf4c1e40, type: 3}
+  m_Name: DefaultSessionConfig
   m_EditorClassIdentifier: 
-  _mapId: earthadam.9ylvtwwc
-  Visualizers:
-  - {fileID: 11400000, guid: b3ad72a05ac820845bb16f18192ed3bb, type: 2}
+  m_matchCameraFramerate: 1
+  m_enablePlaneFinding: 1
+  m_enableLightEstimation: 1
