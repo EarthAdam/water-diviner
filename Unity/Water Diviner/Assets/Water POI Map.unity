@@ -158,7 +158,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _zoom: 16
   _initializeOnStart: 1
-  _latitudeLongitudeString: 37.7648, -122.463
+  _latitudeLongitudeString: 39.9623, -83.0007
   _root: {fileID: 0}
   _tileProvider: {fileID: 110210643}
   _mapVisualizer: {fileID: 11400000, guid: c9b7f3a88d66eb542933eb7aa557a5fd, type: 2}
@@ -575,6 +575,16 @@ Prefab:
         of Interest (poi_label) markers. Mapbox\u2019s (streets-v7) vector tile set
         includes POIs you can leverage or you can import your own custom data sets
         to create custom POIs through Mapbox Studio. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 224857786874416376, guid: 98be219873e6d4dffb5949746f515a33,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114731470950229392, guid: 98be219873e6d4dffb5949746f515a33,
+        type: 2}
+      propertyPath: m_Size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 98be219873e6d4dffb5949746f515a33, type: 2}
