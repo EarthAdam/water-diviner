@@ -13,9 +13,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Active: 1
   _classificationKey: 
-  _key: export-c85idv
+  _key: OGRGeoJSON
   Filters: []
-  _defaultStack: {fileID: 0}
+  _defaultStack: {fileID: 11400000, guid: eb0f35e4017d1444fb8c27c579728618, type: 2}
   Stacks: []
-  _enableCoroutines: 0
+  _enableCoroutines: 1
   _entityPerCoroutine: 20
