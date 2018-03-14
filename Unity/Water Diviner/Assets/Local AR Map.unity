@@ -256,6 +256,10 @@ Prefab:
       propertyPath: m_Name
       value: ARCore Device
       objectReference: {fileID: 0}
+    - target: {fileID: 1637996540812124, guid: c10877f7cd5764de18d46d7b777d1faa, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c10877f7cd5764de18d46d7b777d1faa, type: 2}
   m_IsPrefabParent: 0
@@ -308,9 +312,31 @@ Prefab:
       propertyPath: _map
       value: 
       objectReference: {fileID: 1996204434}
+    - target: {fileID: 114987675768091326, guid: f836f513cfb284ad0b199b251a8d93a9,
+        type: 2}
+      propertyPath: _editorLocationProvider
+      value: 
+      objectReference: {fileID: 417650288}
+    - target: {fileID: 114987675768091326, guid: f836f513cfb284ad0b199b251a8d93a9,
+        type: 2}
+      propertyPath: _transformLocationProvider
+      value: 
+      objectReference: {fileID: 303291655}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f836f513cfb284ad0b199b251a8d93a9, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &303291655 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114958662040910602, guid: f836f513cfb284ad0b199b251a8d93a9,
+    type: 2}
+  m_PrefabInternal: {fileID: 149462791}
+  m_Script: {fileID: 11500000, guid: a034c4eeb3293418aab101c1895844a4, type: 3}
+--- !u!114 &417650288 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114023304781792650, guid: f836f513cfb284ad0b199b251a8d93a9,
+    type: 2}
+  m_PrefabInternal: {fileID: 149462791}
+  m_Script: {fileID: 11500000, guid: 60712efc3153a4819b0c79437175846d, type: 3}
 --- !u!1 &557169198
 GameObject:
   m_ObjectHideFlags: 0
@@ -583,7 +609,7 @@ Prefab:
     - target: {fileID: 224907993215804030, guid: 98be219873e6d4dffb5949746f515a33,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0.05752136
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224835413515161394, guid: 98be219873e6d4dffb5949746f515a33,
         type: 2}
@@ -623,17 +649,17 @@ Prefab:
     - target: {fileID: 224907856650798614, guid: 98be219873e6d4dffb5949746f515a33,
         type: 2}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224907856650798614, guid: 98be219873e6d4dffb5949746f515a33,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224907856650798614, guid: 98be219873e6d4dffb5949746f515a33,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: -17
       objectReference: {fileID: 0}
     - target: {fileID: 114603753021256032, guid: 98be219873e6d4dffb5949746f515a33,
         type: 2}
@@ -1414,7 +1440,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1996204430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1440,7 +1466,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _panSpeed: 5.4
   _zoomSpeed: 0.25
-  _referenceCamera: {fileID: 0}
+  _referenceCamera: {fileID: 896679035}
   _quadTreeTileProvider: {fileID: 1996204432}
   _dynamicZoomMap: {fileID: 1996204434}
   _useDegreeMethod: 0
@@ -1455,7 +1481,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 756a01a914208439d8d2fc8dcd68b229, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _camera: {fileID: 0}
+  _camera: {fileID: 896679035}
   _updateInterval: 0
 --- !u!114 &1996204433
 MonoBehaviour:

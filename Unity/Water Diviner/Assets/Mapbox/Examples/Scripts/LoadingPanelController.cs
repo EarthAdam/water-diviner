@@ -17,7 +17,7 @@ namespace Mapbox.Examples
 
 		void Awake()
 		{
-			var map = FindObjectOfType<AbstractMap>();
+            var map = FindObjectOfType<AbstractMap>();
 			var visualizer = map.MapVisualizer;
 			_text.text = "LOADING";
 			visualizer.OnMapVisualizerStateChanged += (s) =>
