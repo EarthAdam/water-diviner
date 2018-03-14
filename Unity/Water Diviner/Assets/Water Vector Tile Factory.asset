@@ -11,6 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63d97cb1cfb3f1b499c24763afa54873, type: 3}
   m_Name: Water Vector Tile Factory
   m_EditorClassIdentifier: 
-  _mapId: earthadam.0gvd12l1
+  _mapId: earthadam.4vwtp4h8
   Visualizers:
   - {fileID: 11400000, guid: b3ad72a05ac820845bb16f18192ed3bb, type: 2}

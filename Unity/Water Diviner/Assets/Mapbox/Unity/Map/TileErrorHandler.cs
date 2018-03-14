@@ -49,7 +49,7 @@
 				}
 				else
 				{
-					Debug.LogError(printMessage(e.Exceptions, e));
+    
 				}
 			}
 

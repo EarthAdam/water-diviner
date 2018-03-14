@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Name: Water Prefab Modifier
   m_EditorClassIdentifier: 
   Active: 1
-  _prefab: {fileID: 0}
+  _prefab: {fileID: 1602881693746514, guid: a24ac90e05334814f9392f55a8444327, type: 2}
   _scaleDownWithWorld: 0
