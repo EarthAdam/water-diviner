@@ -642,7 +642,7 @@ PlayerSettings:
   facebookSdkVersion: 7.9.1
   apiCompatibilityLevel: 2
   cloudProjectId: 2c1ea5ed-047c-4aac-b913-8ae835c6744e
-  projectName: SDK2_BaseProject
+  projectName: Water Diviner
   organizationId: adam-sauer
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
