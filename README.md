@@ -1,18 +1,19 @@
 # water-diviner
 An AR app to guide users to the nearest water source
+## Devpost
+[Click here](https://devpost.com/software/water-diviner) to see our Devpost submission for the hackathon.
 
 # Geolocated Data
 ## OpenStreetMaps
-We found the OpenStreetMaps has the largest catalog of drinking water sources: 
-https://wiki.openstreetmap.org/wiki/Tag:amenity%3Ddrinking_water. The ESRI folks helped us find a [site](http://overpass-turbo.eu/) that searches for OSM layers based on a simple search, and allows you to download that as GeoJSON, KML, and other formats.
-We posted a call for support on the OSM redit, but haven't heard anything back yet. https://www.reddit.com/r/openstreetmap/comments/846gnf/creating_reality_vr_hackathon_ar_water_map/
+We found the OpenStreetMaps has the [largest catalog of drinking water sources](https://wiki.openstreetmap.org/wiki/Tag:amenity%3Ddrinking_water). The ESRI folks helped us find a [site](http://overpass-turbo.eu/) that searches for OSM layers based on a simple search, and allows you to download that as GeoJSON, KML, and other formats.
+We [posted a call](https://www.reddit.com/r/openstreetmap/comments/846gnf/creating_reality_vr_hackathon_ar_water_map/) for support on the OSM redit, but haven't heard anything back yet. 
 
 ## NASA-GRACE
-GLDAS Land Water Content (monthly): https://grace.jpl.nasa.gov/data/get-data/land-water-content/
+[GLDAS Land Water Content (monthly)](https://grace.jpl.nasa.gov/data/get-data/land-water-content/)
 - A GRACE-independent forward simulation of monthly land water storage changes (currently using soil moisture, snow, and canopy water). Can be used for comparison and residual groundwater studies.
 - The grids of total water content every 3 hours were averaged over nominal months. The time-averaged grid Jan-2003 to Dec-2007 was then subtracted from all the individual monthly grids. The data are available in ASCII format (one file per month), in NetCDF format (one file for the whole time period), and as GIF images and animations.
 
-Interactive GRACE Data Browsers: https://grace.jpl.nasa.gov/data/get-data/interactive-browsers/
+[Interactive GRACE Data Browsers](https://grace.jpl.nasa.gov/data/get-data/interactive-browsers/)
 - These links to data browser allow the interactive retrieval of GRACE Land data over river basins, as well as the evaluation of long-term trends and mean seasonal amplitudes. Interactive data browsers that allow users to explore and download grid-point to basin-level GRACE data.
 
 ## Hardware
